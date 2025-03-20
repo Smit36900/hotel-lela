@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1250px;
+    width: 100%;
+    margin: 0 auto;
+}
+/* body{
+    /* max-width: 2000px;
+    width: 100%;
+    margin: 0 auto ;
+}
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1320px;
+    }
+} */
+
+@font-face {
+    font-family: 'Angie Sans';
+    src: url('../fonts/fonnts.com-Angie_Sans_Std_Demi.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mr Eaves';
+    src: url('../fonts/MrEavesXLModNarOT-Book.woff2') format('woff2'),
+         url('../fonts/MrEavesXLModNarOT-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+} 

@@ -1,0 +1,47 @@
+
+.Suites {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-block: 50px;
+    gap: 20px;
+}
+
+.Suites_img img{
+    width: 513px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.Swing_content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Swing_content h2{
+    font-family: 'Angie Sans';
+    font-size: 54px;
+    font-weight: 400;
+}
+
+.Swing_content p {
+    font-family: 'Mr Eaves';
+    font-size: 17px;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 27px;
+    letter-spacing: 2px;
+    max-width: 450px;
+}
+
+.Swing_content button{
+    padding: 10px 15px;
+    width: 32%;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    background: #4e5a73;
+    border: none;
+    font-family: 'Angie Sans';
+}
